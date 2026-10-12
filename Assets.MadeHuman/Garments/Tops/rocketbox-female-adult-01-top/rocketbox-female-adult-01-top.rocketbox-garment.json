@@ -1,0 +1,148 @@
+{
+  "id": "rocketbox:garment:top:rocketbox-female-adult-01-top",
+  "kind": "garment",
+  "variant": "top",
+  "name": "Rocketbox female adult 01 top",
+  "category": "Rocketbox / Tops",
+  "license": {
+    "spdx": "MIT",
+    "file": "LICENSES/Microsoft-Rocketbox-MIT.md"
+  },
+  "source": {
+    "repository": "https://github.com/top-5/Microsoft-Rocketbox",
+    "commit": "b9563d477051f5c3d83682902dad3ef52e510a4a",
+    "path": "Assets/Avatars/Adults/Female_Adult_01/Export/Female_Adult_01.fbx",
+    "sha256": "8cbaf86576004b96469bc80df123b97fef788f4a7bb3f3eaa616fcfaf55698a3",
+    "avatar": "Female_Adult_01"
+  },
+  "converter": {
+    "repository": "https://github.com/top-5/madehuman",
+    "commit": "b17b7c17e5ecd2123be6a172d93d8d483d069f10",
+    "tool": "tools/cli/assets/preconvert-wardrobe.ts"
+  },
+  "storage": {
+    "runtimeUrl": "/assets/wardrobe-library/rocketbox-female-adult-01-top/rocketbox-female-adult-01-top.glb",
+    "releasePath": "Garments/Tops/rocketbox-female-adult-01-top/rocketbox-female-adult-01-top.glb",
+    "netdiskRoot": "datasets/makehuman/public-assets"
+  },
+  "status": "ready",
+  "artifact": {
+    "bytes": 7332916,
+    "sha256": "0e8c16d5d0cdd977486ee219831da9b0e3f3586d6eac35f80f8086a1eb7c255a",
+    "reportSchema": "madehuman.rocketbox-segmented-garment/1"
+  },
+  "review": {
+    "model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4",
+    "ok": true,
+    "answer": "harvest: Yes.  \nIt shows only a shirt-like upper-body garment from front, side, and top views, with no face, hair, hands, bare skin, or other body parts visible."
+  },
+  "topology": {
+    "mesh": "f001_hipoly_81_bones_opacity",
+    "polygonCount": 1460,
+    "islands": [
+      1402,
+      58
+    ]
+  },
+  "segmentation": {
+    "method": "Sapiens2 multi-view labels projected to visible source vertices; unseen labels propagated over indexed edges; unanimous source polygons; edge-connected islands",
+    "model": "sapiens2_0.4b_seg DOME-29",
+    "evidence": {
+      "views": [
+        [
+          0,
+          0
+        ],
+        [
+          30,
+          0
+        ],
+        [
+          60,
+          0
+        ],
+        [
+          90,
+          0
+        ],
+        [
+          120,
+          0
+        ],
+        [
+          150,
+          0
+        ],
+        [
+          180,
+          0
+        ],
+        [
+          210,
+          0
+        ],
+        [
+          240,
+          0
+        ],
+        [
+          270,
+          0
+        ],
+        [
+          300,
+          0
+        ],
+        [
+          330,
+          0
+        ],
+        [
+          30,
+          -30
+        ],
+        [
+          150,
+          -30
+        ],
+        [
+          210,
+          -30
+        ],
+        [
+          330,
+          -30
+        ],
+        [
+          90,
+          25
+        ],
+        [
+          270,
+          25
+        ]
+      ],
+      "seenVertices": 4162,
+      "vertices": 4734,
+      "histogram": {
+        "Background": 257,
+        "Apparel": 63,
+        "Face_Neck": 1381,
+        "Hair": 599,
+        "Left_Hand": 400,
+        "Left_Lower_Arm": 101,
+        "Left_Shoe": 61,
+        "Left_Upper_Arm": 13,
+        "Lower_Clothing": 321,
+        "Right_Hand": 400,
+        "Right_Lower_Arm": 103,
+        "Right_Shoe": 73,
+        "Right_Upper_Arm": 14,
+        "Torso": 43,
+        "Upper_Clothing": 789,
+        "Lower_Lip": 27,
+        "Upper_Lip": 89
+      }
+    }
+  }
+}

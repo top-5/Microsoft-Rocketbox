@@ -1,3 +1,3 @@
-Assets.MadeHuman/**/*.glb filter=lfs diff=lfs merge=lfs -text
-Assets.MadeHuman/**/*.png filter=lfs diff=lfs merge=lfs -text
-Assets.MadeHuman/**/*.webp filter=lfs diff=lfs merge=lfs -text
+# GitHub does not accept new LFS objects in a public fork.  Assets.MadeHuman is
+# a deliberately versioned derived release, so its reviewed GLBs and previews
+# are stored as ordinary Git blobs; the original Rocketbox sources are unchanged.
